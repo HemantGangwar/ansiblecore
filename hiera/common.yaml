@@ -1,0 +1,23 @@
+---
+classes:
+- motdfile
+#- sshkeys
+#- common_user
+#- must_utils
+#- ansiblecore::target
+
+#common_user::user_hash:
+#  zeususer:
+#    ensure: 'present'
+#    uid: '4772'
+#    comment: 'LIHS administrator user'
+#
+#  hgangwar:
+#    ensure: 'absent'
+
+#must_utils::requiredpackages:
+#- tmux
+#- tcpdump
+#- screen
+
+#ansiblecore::target::ssh_key_pub: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDS5Ep3ry7AkMiz4CvyMn88JQxm/YmmnvTqSGtHEVrYXtXVXNilCHIQClccpHGpKGEKqy/F+d6s/CDYuYIS8PMRFOnSHUaYIQodOtn89ELp9FExkDhTrA9tR4WGZznTtzbXuwddPEbwKiSttPu5gJS69Gbzq+7EgGjMQ3VTQxJsXvoMFeszfiIQb/pyKv0aI72mP6YLGAZCfP7Uoxs5bQ9OLl7fspyeqX7HshM/zjBCmixC4//9Pf/bd/+WjzFZ5ZD6Nxh418LOOzjnhE9s6gcqd98CJGH2V9Z3wDVUFuyeK4AUvX5j7Rhe9Gkw6193DgGmYl7O+VSBN9v/j6i61oS/ ldapmas-key' 

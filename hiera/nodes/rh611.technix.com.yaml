@@ -1,0 +1,8 @@
+---
+
+motdfile::customrole:
+ - '- Redhat 6 node' 
+ - '- RH 6-->7 in-place candidate'
+ - '- Puppet Client'
+
+

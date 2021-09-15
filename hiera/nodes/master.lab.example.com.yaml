@@ -1,0 +1,34 @@
+---
+classes:
+- general
+- nfs::client
+- resolvers
+
+motdfile::customrole:
+ - 'Kubernetes Master'
+ - 'Puppet Master'
+
+general::package:
+  telnet:
+    name: telnet
+    ensure: present
+    provider: yum
+  traceroute:
+    name: traceroute
+    ensure: absent
+    provider: yum
+  puppet-agent:
+    name: puppet-agent
+    ensure: latest
+    provider: yum
+
+nfs::client::nfs_mount_hash:
+  /mnt_nfs:
+    ensure: 'mounted'
+    device: 'box.technix.com:/box_nfs_share'
+    fstype: 'nfs' 
+
+resolvers::domainnames: 'lab.example.com technix.com'
+resolvers::nameservers: 
+- '172.25.250.140'
+- '192.168.16.140'

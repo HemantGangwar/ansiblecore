@@ -1,0 +1,14 @@
+---
+classes:
+- nfs::client
+
+motdfile::customrole:
+ - 'Kubernetes Worker'
+ - 'Puppet Client'
+
+nfs::client::nfs_mount_hash:
+  /mnt_nfs:
+    ensure: 'mounted'
+    device: 'box.technix.com:/box_nfs_share'
+    fstype: 'nfs'
+
