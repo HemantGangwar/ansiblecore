@@ -1,10 +1,20 @@
 # ansiblecore
 
-This will help you in setting up below:
-- Ansible server
-- Ansible user
-- key based authentication working between nodes
+Welcome to ansiblecore. A module written to play along with Ansible, for more details on free content written by author on Ansible, please refer: (#https://learningtechnix.wordpress.com/category/automation/ansible/)
 
-The node which you want to use as master: include ansiblecore::master
+## Table of Contents
 
-For clients:                              include ansiblecore::target
+1. [Description](#description)
+2. [Setup - The basics of getting started with ansiblecore](#setup)
+
+## Description
+
+For those who are looking for a clean ansible installation in their environment. For this a preferable setup is RHEL / CentOS 7 based machines.
+
+## Setup
+
+In this example code you will find numerous machines, where following are important:
+
+- ldapmas.technix.com --> ANSIBLE MASTER
+- master.lab.example.com --> ANSIBLE CLIENT
+

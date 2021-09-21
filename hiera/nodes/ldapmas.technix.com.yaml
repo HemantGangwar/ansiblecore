@@ -1,10 +1,10 @@
 ---
-#classes:
-#- ansiblecore::master
+classes:
+- ansiblecore::master
 
 motdfile::customrole:
  - ' - Ansible Server'
  - ' - Terraform Server'
  - ' - LDAP Server'
 
-#ansiblecore::master::ansiblecore: 'ansible'
+ansiblecore::master::ansiblecore: 'ansible'

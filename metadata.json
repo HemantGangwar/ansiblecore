@@ -1,10 +1,11 @@
 {
   "name": "hemantgangwar-ansiblecore",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "author": "hemantgangwar",
-  "summary": "This is module written for deploying ansible master and slave",
+  "summary": "This is module written for deploying ansible master and slave on RHEL 6,7,8 systems",
   "license": "Apache-2.0",
-  "source": "https://learningtechnix.wordpress.com/",
+  "source": "https://learningtechnix.wordpress.com/category/automation/ansible/",
+  "project_page": "https://github.com/HemantGangwar/ansiblecore",
   "dependencies": [
 
   ],
