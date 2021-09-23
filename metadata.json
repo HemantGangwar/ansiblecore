@@ -1,6 +1,6 @@
 {
   "name": "hemantgangwar-ansiblecore",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "author": "hemantgangwar",
   "summary": "This is module written for deploying ansible master and slave on RHEL 6,7,8 systems",
   "license": "Apache-2.0",
