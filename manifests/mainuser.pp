@@ -3,7 +3,7 @@ class ansiblecore::mainuser {
 	exec { 'del':
 		command => 'userdel -r ansible',
 		path   => '/usr/sbin:/usr/bin',
-		onlyif => 'test ! -f /home/ansible',
+		onlyif => 'test ! -d /home/ansible',
 		}
         user { 'ansible':
                 ensure  =>      present,
